@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+header {
+    background-image: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 28px; 
+}
+
+h2 {
+    color: #333; 
+}
+
+aside {
+    background-image: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    padding: 20px;
+    flex: 1;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex: 3;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #008080; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px; 
+}
+
+button:hover {
+    background-color: #2e8b57; 
+}
+
+.advertisement {
+    background-image: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+}
+
+.advertisement img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+footer {
+    background-image: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+

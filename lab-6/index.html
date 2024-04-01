@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to playworld</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://www.aacpl.net/sites/default/files/2022-03/RPS.jpg" alt="Logo">
+        </div>
+        <h1>Let's Play......!</h1>
+    </header>
+    <div class="container">
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <section id="game">
+                <h2>Rock Paper Scissors</h2>
+                <button onclick="playGame()">Play Game</button>
+            </section>
+        </main>
+        <div class="advertisement">
+            <marquee behavior="3" direction="left"><h2>Advertisement</h2></marquee>
+            <a href="https://www.amazon.com/Nike-Mens-Force-Basketball-White/dp/B0064BCF84/ref=sr_1_2?crid=2BPTVPS5X3YYO&dib=eyJ2IjoiMSJ9._boWAsWnrqMQI8ZvXAvfMrwlYj49GybedLilWoMBr7BttRzneyL8GTaiqYti633E4GJ3TXiHd6BZaW1F0Y0QUf_I8gNoWBTvJMuIu1KogrszJKXJjl2PtDY-L3GJ_AklrDdM7GSuZw7Ls0SpMiB9_tKMOaxZShRX_87XHs3u8Vox_yS0F2Zx93v37-tqUoznn8VGW_fc50BQxbNWA_wVhW-2ifNyQIrxg8TcPeci0IG9EavsAIzREpsvs6rbsNdavqupMtocLhxPp86QrIrhY1yq48js06fEPA_obcR5m3A.cYjv2-D6z1NxAO9uWE8CUoo3-7cMtlMfqeFxzL71g7Y&dib_tag=se&keywords=nike+airforce+1&qid=1712007389&sprefix=nike+airforce1%2Caps%2C119&sr=8-2" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJi9TNrnjZtSiapXIDHXvTpFmZqp0EeZum_A&usqp=CAU" alt="Advertisement">
+            </a>
+            <a href="https://www.amazon.com/Nike-Slippers-Low-Top-Sneakers-White/dp/B08QB89N2R/ref=sr_1_10?crid=1CD70FOSC3Z8C&dib=eyJ2IjoiMSJ9.R3rSAP5HmNXzq5BalIfapTIHm2KXGkLTtiezGvgpSy2JhKRPoz8IYM-NX8wVW_qJSRycjDOvKo9vOgV2HQCm_ywbGFg8aDafy4Ks_DzP_I03e8CSDnLui4TWLYHOKnmQVj32IBkoCv-PctymNdPYqGdKAmLPxaGbB_uhdx2zSodZ0cZ03_c0bD8WpWvvlzdy60zsoPhzW8FkLknUoU5nwJjgYX2jjYZMyoLXfTqvDUDW0kqvtcCAXIora51uU6Egb3HmMOrlBROElWFFDch-mRRl7Dn_vihzx-VlGDbS6No.7oep4jB58we2Gu_O6mN8owsb7JEFgeCFbqZPLGCBnsg&dib_tag=se&keywords=nike+air+force+1+with+red&qid=1712007462&sprefix=nike+airforce+1+with+red%2Caps%2C129&sr=8-10" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0JsrHFEIEmXZOvo9WvoTaFSBMfiMWvL6KewgZ567k5nkgeOZeoUkgZl_HTjKPCFfs3vw&usqp=CAU" alt="Advertisement">
+            </a>
+        </div>
+    </div>
+    <footer>
+       
+        <p>Addendum:</p>
+        <p>The JavaScript code implemented in this page solves the problem of creating a simple game of Rock, Paper, Scissors. 
+        The game logic involves generating the computer's choice randomly, prompting the player to enter their choice, and determining the winner based on the game rules. 
+        I used Math.random() to generate the computer's choice, and compared it with the player's choice to determine the winner. 
+        The main challenge I encountered was handling user input and validating it to ensure it matches the expected choices (rock, paper, or scissors). 
+        I addressed this by converting the input to lowercase and using conditional statements to compare it with the computer's choice.</p>
+
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+</body>
+</html>
